@@ -1,0 +1,11 @@
+allprojects {
+    group = "bg.dr.chillywe"
+    version = "0.0.1-SNAPSHOT"
+
+    repositories {
+        mavenCentral()
+        maven {
+            url = uri("https://packages.confluent.io/maven/")
+        }
+    }
+}

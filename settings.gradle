@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'backend-parrent-project'
+
+include 'modules:user-service'
+include 'modules:team-service'
