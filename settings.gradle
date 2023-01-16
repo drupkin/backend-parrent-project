@@ -9,3 +9,4 @@ rootProject.name = 'backend-parrent-project'
 
 include 'modules:user-service'
 include 'modules:team-service'
+include 'modules:commons:commons-kafka-producer'
